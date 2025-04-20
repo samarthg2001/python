@@ -7,7 +7,9 @@ gpa=2.5
 # True or Flase first letter should be capital 
 isStudent=False
 
-#f means format , we have to mention it before inserting the variable in print statemet 
+# f means format , 
+# we have to mention it before inserting the variable in print statemet 
+#  with the{ "  " } format 
 #to insert variable we can insert by using { variable name} 
 print(f"hello {full_name}")
 print(f"your age is  {age}")

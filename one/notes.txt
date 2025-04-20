@@ -1,0 +1,6 @@
+python don't have increment/decrement  operater like ++ or --
+
+input() type will always string 
+
+
+== for comparing 
