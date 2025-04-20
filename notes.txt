@@ -1,0 +1,46 @@
+python don't have increment/decrement  operater like ++ or --
+
+
+
+check spaces in list ,tuple,sets imp
+
+input() type will always string 
+
+
+== for comparing
+
+
+range() function 
+
+Parameter	Description
+start	(Optional) The number to start from. Default is 0.
+stop	The number to stop before. Not inclusive!
+step	(Optional) The difference between each number. Default is 1.
+range(start , stop , step)
+to go backwerd we use -1
+
+
+
+print(letter, end=" ")	
+Print the character without moving to the next line.
+ Instead, put a space (" ") after it
+ end=" " Explained:
+Normally, print() ends with a newline (\n)
+
+
+end=" " overrides that behavior to use a space instead
+
+This keeps all output on the same line, separated by spaces
+
+
+
+### 🧾 Summary Table
+
+| Feature        | `list`         | `tuple`         | `set`          |
+|----------------|----------------|------------------|-----------------|
+| Ordered        | ✅ Yes         | ✅ Yes           | ❌ No           |
+| Mutable        | ✅ Yes         | ❌ No            | ✅ Yes          |
+| Duplicates     | ✅ Allowed     | ✅ Allowed       | ❌ Not allowed  |
+| Indexed Access | ✅ Yes         | ✅ Yes           | ❌ No           |
+
+---
