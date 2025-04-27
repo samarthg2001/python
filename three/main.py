@@ -29,19 +29,29 @@
 # for i in fruits1:
 #     print(i,end=" ")
 
-fruits1= {"apple","orange", "banana","coconut" }
-for i in fruits1:
-    print(i,end=" ")
-fruits2= {"apple","orange", "banana","coconut" ,"coconut" ,"coconut" ,"coconut" ,"coconut" ,"coconut" }
-fruits2.add("kiwi")
-fruits2.add("grapes")
-# fruits1.pop(2) TypeError: set.pop() takes no arguments (1 given)
-fruits2.remove("apple")
-for i in fruits1:
-    print(i,end=" ")    
+# fruits1= {"apple","orange", "banana","coconut" }
+# for i in fruits1:
+#     print(i,end=" ")
+# fruits2= {"apple","orange", "banana","coconut" ,"coconut" ,"coconut" ,"coconut" ,"coconut" ,"coconut" }
+# fruits2.add("kiwi")
+# fruits2.add("grapes")
+# # fruits1.pop(2) TypeError: set.pop() takes no arguments (1 given)
+# fruits2.remove("apple")
+# for i in fruits1:
+#     print(i,end=" ")    
 
-fruit=input("enter the fruit to found : ")
-if fruit in fruits1 :
-    print(f"{fruit} is  found in fruits ")
-else: 
-    print(f"{fruit} is not found in fruits ")
+# fruit=input("enter the fruit to found : ")
+# if fruit in fruits1 :
+#     print(f"{fruit} is  found in fruits ")
+# else: 
+#     print(f"{fruit} is not found in fruits ")
+
+list=[1,9,8,7,5,6,3,2,4,0]
+x=int(input("Enter the number to search in list : "))
+
+for i in list:
+    if x == i:
+        print(f"{i} index {x} is present in the list ")
+
+    
+
