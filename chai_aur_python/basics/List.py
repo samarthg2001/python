@@ -114,3 +114,13 @@ for i in mylist:
     sum+=i
 print(sum)
 
+
+max=mylist[0]
+min=mylist[0]
+for i in mylist:
+    if max<i:
+        max=i
+    if min>i:
+        min=i
+
+print(max,min)
