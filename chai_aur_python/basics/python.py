@@ -46,3 +46,8 @@ for i in range(0,100,5):
     if i%2==0:
         pass
         print(i)
+
+str_value="hello world"
+print(str_value)
+print(str_value[-1:-12:-2])
+print(str_value[::-1])
