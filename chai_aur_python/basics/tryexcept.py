@@ -2,7 +2,8 @@ try:
     a=10/0
 except :
     print("hello world")
-    
+else:
+    print("this is else block")
     
 def fun(*a):
     for i in a:
